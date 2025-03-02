@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.header__search {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
