@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+  height: 448px;
+  color: white;
+}
+
+.banner__contents {
+  position: absolute;
+  top: 30%;
+  left: 30px;
+}
+
+.banner__title {
+  font-size: 3rem;
+}
+
+.banner__buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.banner__button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.banner__description {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.banner--fadeBottom {
+  position: absolute;
+  bottom: 0;
+  height: 7.4rem;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
